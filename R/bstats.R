@@ -21,7 +21,7 @@ stat <- function(x) {
              median = median(x),
              mean= mean(x),
              max= max(x),
-             st = sdt(x),
+             st = sd(x),
              range = max(x) - min(x)
             )
 
