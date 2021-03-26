@@ -20,7 +20,10 @@ stat <- function(x) {
   data.frame(min = min(x),
              median = median(x),
              mean= mean(x),
-             max= max(x))
+             max= max(x),
+             st = st(x),
+             range = max(x) - min(x)
+            )
 
 
 }
